@@ -32,7 +32,7 @@
 
 <body class=" min-h-screen">
   <!-- HEADER START -->
-  <header class="w-full relative z-10">
+  <header class="w-full relative z-50">
     <!-- Top Bar Section -->
     <!-- START: Top Bar Section -->
     <section class="w-full  relative px-4 sm:px-6 md:px-8  lg:px-16 "
@@ -161,7 +161,7 @@
                 <path d="M 18 5 A 10 10 0 0 1 18 23" stroke-linecap="round"></path>
               </svg>
               <span
-                class="absolute top-[26px] bg-gradient-to-b from-[#e5aa42] to-[#bf7e1b] text-[#1a0004] text-[10px] font-semibold tracking-tight px-2 py-0.5 rounded-full shadow-[0_3px_6px_rgba(0,0,0,0.25)] whitespace-nowrap raleway-font z-20">
+                class="absolute top-6.5 bg-gradient-to-b from-[#e5aa42] to-[#bf7e1b] text-[#1a0004] text-[10px] font-semibold tracking-tight px-2 py-0.5 rounded-full shadow-[0_3px_6px_rgba(0,0,0,0.25)] whitespace-nowrap raleway-font z-20">
                 Login
               </span>
             </a>
@@ -186,7 +186,7 @@
       </div>
 
       <div id="mobile-menu"
-        class="hidden lg:hidden bg-[#f7eedd] border-b border-[#e2caa0] px-6 py-5 shadow-lg transition-all duration-300">
+        class="absolute top-20 md:top-28 z-50 w-full lg:hidden bg-[#f7eedd] border-b border-[#e2caa0] px-6 py-5 shadow-lg transition-all duration-300 hidden">
         <div class="flex flex-col gap-4 text-[#951416] raleway-font font-semibold text-[15px]">
           <a href="#" class="hover:text-[#8e1b26] transition-colors pb-2 border-b border-[#ebd8b3]">Home</a>
           <a href="#" class="hover:text-[#8e1b26] transition-colors pb-2 border-b border-[#ebd8b3]">About us</a>
@@ -310,7 +310,7 @@
 
             <!-- Vertical Carousel Arrows -->
             <div
-              class="absolute right-0 sm:right-2 top-[45%] -translate-y-1/2 z-40 flex flex-col gap-3 pointer-events-auto">
+              class="absolute right-0 lg:right-2 top-[35%] md:top-[45%] -translate-y-1/2 z-40 flex flex-col gap-3 pointer-events-auto">
               <button
                 class="w-[34px] h-[34px] sm:w-[38px] sm:h-[38px] rounded-full bg-gradient-to-r from-[#DA0F12] to-[#951416] text-[#ffdf9e] flex items-center justify-center shadow-[0_4px_10px_rgba(0,0,0,0.35)] border border-[#e5ba65] transition-transform hover:scale-110"
                 aria-label="Previous slide">
@@ -700,7 +700,7 @@
 
           <!-- 1. For Her (Left Card) -->
           <div
-            class="w-full sm:w-[85%] lg:w-[48%] h-[240px] sm:h-[280px] md:h-[278px] relative rounded-lg overflow-visible flex items-center justify-end z-10 shadow-[0_12px_35px_rgba(0,0,0,0.6)]">
+            class="w-full sm:w-[85%] lg:w-[48%] h-[240px] sm:h-[280px] md:h-[278px] relative rounded-3xl overflow-visible flex items-center justify-end z-10 shadow-[0_12px_35px_rgba(0,0,0,0.6)]">
             <!-- Golden Outer Border Frame -->
             <div class="absolute inset-0 w-full h-full bg-cover bg-center pointer-events-none z-40"
               style="background-image: url('/assets/golden-box-CxNUUBt8.png');">
@@ -2532,7 +2532,7 @@
             </div>
 
             <img src="/assets/about-woman-C5CTrfX_.png" alt="About Puspam Jewellery"
-              class="absolute w-[92%] h-[82%] object-cover rounded-xl overflow-hidden z-10">
+              class="absolute w-full lg:w-[92%] h-[82%] object-cover rounded-xl overflow-hidden z-10">
 
           </div>
 
@@ -3406,12 +3406,12 @@
 
         <div class="relative w-full mt-8 lg:mt-0">
           <div class="h-auto pointer-events-none ">
-            <img src="/assets/footer-bottom-img-C6OQIv8o.png" class="h-auto w-full" alt="Footer Bottom Flavour">
+            <img src="/assets/footer-bottom-img-C6OQIv8o.png" class="h-20 lg:h-auto w-full" alt="Footer Bottom Flavour">
           </div>
 
           <!-- Copyright Area (One Line, Responsive) -->
           <div
-            class="absolute left-1/2 -translate-x-1/2 bottom-2 md:bottom-4 w-[98%] sm:w-auto max-w-[900px] bg-gradient-to-r from-[#e7be68] via-[#f7dab3] to-[#e7be68] text-[#1c0003] px-2 py-2 sm:px-6 sm:py-3 rounded-full shadow-[0_4px_15px_rgba(0,0,0,0.3)] text-center raleway-font md:font-medium md:tracking-wide whitespace-nowrap text-[8.5px] min-[370px] text-sm lg:text-base ">
+            class="absolute left-1/2 -translate-x-1/2 bottom-1 lg:bottom-4 w-[98%] sm:w-auto max-w-[900px] bg-gradient-to-r from-[#e7be68] via-[#f7dab3] to-[#e7be68] text-[#1c0003] px-2 py-2 sm:px-6 sm:py-3 rounded-full shadow-[0_4px_15px_rgba(0,0,0,0.3)] text-center raleway-font md:tracking-wide whitespace-nowrap text-[8px] min-[370px] md:text-sm lg:text-base ">
             © 2026 <span class="text-[#82141e] font-semibold md:font-bold">Puspam Jewellery</span>. All Rights Reserved.
             Design &amp;
             Developed by <span class="text-[#82141e] font-semibold md:font-bold">Insu Creation Pvt. Ltd.</span>
